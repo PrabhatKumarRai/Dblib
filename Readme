@@ -3,7 +3,8 @@
 -------------
 #Dblib is a Database Framework.
 It comes with a collection of well-defined methods to easily communicate with your database.
-The focus is on minimizing the need for writing similar database queries multiple times. You just need to call the built-in methods and pass the required parameters to process the transactions.
+The focus is on minimizing the need for writing similar database queries multiple times. You just need to call the built-in methods and pass the 
+required parameters to process the transactions.
 Prepared statements of PHP Data Objects (PDO) is used for communicating with the database which makes your database transactions secure.
 A database connection (in PDO) is also included with error handling attributes.
 
@@ -13,5 +14,6 @@ A database connection (in PDO) is also included with error handling attributes.
 
 --- How to Integrate ---
 => Download Dblib zip file and paste the "dblib.class.php" file inside your database handling directory.
-=> Open the "dblib.class.php" file in your text editor, under the Server Details Section on the top, add the details about your server (Server/Host Name, Username, Password, Database Name).
+=> Open the "dblib.class.php" file in your text editor, under the Server Details Section on the top, 
+   add the details about your server (Server/Host Name, Username, Password, Database Name).
 => Include it in your project using the PHP include statement and start using DBlib.
