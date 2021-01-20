@@ -13,4 +13,5 @@ A database connection (in PDO) is also included with error handling attributes.
 
 --- How to Integrate ---
 => Download Dblib zip file and paste the "dblib.class.php" file inside your database handling directory.
+=> Open the "dblib.class.php" file in your text editor, under the Server Details Section on the top, add the details about your server (Server/Host Name, Username, Password, Database Name).
 => Include it in your project using the PHP include statement and start using DBlib.
