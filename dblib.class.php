@@ -3,10 +3,10 @@
 class Dblib {
   
   protected $conn;
-  protected $servername = "localhost";
-  protected $username = "root";
-  protected $password = "";
-  protected $dbname = "codeigniterapp1";
+  protected $servername = ""; //Add your Server Host Name
+  protected $username = ""; //Add your Server User Name
+  protected $password = ""; //Add the Server User Password
+  protected $dbname = "";  //Add the Database Name
 
   public function __construct(){
     try{      
