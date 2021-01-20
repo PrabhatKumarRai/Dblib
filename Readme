@@ -2,10 +2,10 @@
 --- Dblib ---
 -------------
 #Dblib is a Database Framework.
-Dblib comes with a collection of well-defined methods to easily communicate with your database.
-Dblib minimizes the need for writing similar database queries multiple times. You just need to call the built-in methods of Dblib and pass the required parameters to process the transactions.
-Dblib uses prepared statements of PHP Data Objects (PDO) for communicating with the database which makes your database transactions secure.
-Dblib also includes database connections (in PDO), with error handling attributes.
+It comes with a collection of well-defined methods to easily communicate with your database.
+The focus is on minimizing the need for writing similar database queries multiple times. You just need to call the built-in methods and pass the required parameters to process the transactions.
+Prepared statements of PHP Data Objects (PDO) is used for communicating with the database which makes your database transactions secure.
+A database connection (in PDO) is also included with error handling attributes.
 
 ---- Technologies Used ----
 => PHP with PDO
