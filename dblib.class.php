@@ -2,6 +2,7 @@
 
 class Dblib {
   
+  //------------- Server Details Section -------------//
   protected $conn;
   protected $servername = ""; //Add your Server Host Name
   protected $username = ""; //Add your Server User Name
